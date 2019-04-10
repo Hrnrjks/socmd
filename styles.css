@@ -165,6 +165,8 @@ ul#ul-post
 	color: black;
 	border-radius: 5px;
 	padding: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	margin-bottom: 30px;
 }
 
@@ -178,4 +180,20 @@ ul#ul-post
 {
 	max-width: 100%;
 	max-height: 100%;
+}
+
+.profile-link
+{
+	color: black;
+}
+
+.profile-link:hover
+{
+	color: grey;
+}
+
+.ad-img
+{
+	max-width: 100%;
+	margin-bottom: 10px;
 }
