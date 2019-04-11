@@ -1,13 +1,13 @@
 body
 {
-	background-color: black;
+	background-color: rgba(2, 20, 25, 1);
 	color: white;
 }
 
 .jumbotron
 {
-	background-color: white;
-	color: black;
+	background-color: #0b627f;
+	color: white;
 }
 
 input[type=text], input[type=password]
@@ -39,17 +39,17 @@ button:hover
 
 .navbar
 {
-	background-color: white;
+	background-color: rgba(11, 98, 127, 1);
 }
 
 a
 {
-	color: grey;
+	color: white;
 }
 
 a:hover
 {
-	color: black;
+	color: rgba(16, 165, 138, 1);
 }
 
 .custom-toggler.navbar-toggler {
@@ -61,7 +61,7 @@ a:hover
 
 .nav-link.active
 {
-	color: black;
+	color: #043647;
 }
 
 #navbar-pages-body
@@ -71,9 +71,10 @@ a:hover
 
 .row.profile-thing
 {
-	background-color: white;
-	color: black;
+	background-color: rgba(11, 98, 127, 1);
+	color: white;
 	border-radius: 5px;
+	margin-top: 15px;
 }
 
 .row > .section-thing
@@ -99,24 +100,24 @@ a:hover
 
 .navbar-brand
 {
-	color: black;
+	color: white;
 }
 
 .left-feed
 {
-	background-color: white;
-	color: black;
+	background-color: rgba(4, 54, 71, 1);
+	color: white;
 }
 
 .middle-feed
 {
-	background-color: black;
+	background-color: rgba(2, 20, 25, 1);
 }
 
 .right-feed
 {
-	background-color: white;
-	color: black;
+	background-color: rgba(4, 54, 71, 1);
+	color: white;
 }
 
 .left-feed, .middle-feed, .right-feed
@@ -161,8 +162,8 @@ ul#ul-post
 
 .li-post
 {
-	background-color: white;
-	color: black;
+	background-color: rgba(4, 54, 71, 1);
+	color: white;
 	border-radius: 5px;
 	padding: 10px;
 	padding-top: 25px;
@@ -172,8 +173,10 @@ ul#ul-post
 
 .content-col
 {
-	background-color: white;
+	background-color: rgba(11, 98, 127, 1);
 	margin-top: 10px;
+	padding: 15px;
+	border-radius: 5px;
 }
 
 .post-img
@@ -184,12 +187,12 @@ ul#ul-post
 
 .profile-link
 {
-	color: black;
+	color: white;
 }
 
 .profile-link:hover
 {
-	color: grey;
+	color: rgba(16, 165, 138, 1);
 }
 
 .ad-img
@@ -200,11 +203,11 @@ ul#ul-post
 
 .logout-btn
 {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 .logout-btn:hover
 {
-	color: white;
+	color: black;
 }
