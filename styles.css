@@ -112,6 +112,8 @@ a:hover
 .middle-feed
 {
 	background-color: rgba(2, 20, 25, 1);
+	background-image: url("images/bgseanew.png");
+	background-size: cover;
 }
 
 .right-feed
@@ -137,9 +139,16 @@ a:hover
 
 ul#ul-post
 {
+	margin-top: -10px;
+	margin-bottom: 0px;
 	list-style-type: none;
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	background-color: rgba(11, 98, 127, 0.7);
 }
 
 .div-post
